@@ -50,10 +50,7 @@ M.ui = {
     show_numbers = false,
     enabled = true,
     lazyload = true,
-    overriden_modules = function(modules)
-      table.remove(modules, 1)
-      modules[1] = require("custom.utils.tabuflineutils").bufferlist()
-    end,
+    overriden_modules = nil,
   },
 
   nvdash = {
