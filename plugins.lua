@@ -30,6 +30,16 @@ local plugins = {
     end,
   },
 
+  {
+    "iamcco/markdown-preview.nvim",
+    build = "cd app && npm install",
+    enabled = false,
+    ft = "markdown",
+    config = function()
+      vim.g.mkdp_auto_start = 1
+    end,
+  },
+
   -- Enabled plugin
   {
     "neovim/nvim-lspconfig",
@@ -356,15 +366,6 @@ local plugins = {
   },
 
   {
-    "iamcco/markdown-preview.nvim",
-    build = "cd app && npm install",
-    ft = "markdown",
-    config = function()
-      vim.g.mkdp_auto_start = 1
-    end,
-  },
-
-  {
     "npxbr/glow.nvim",
     cmd = "Glow",
     ft = "markdown",
@@ -495,7 +496,7 @@ local plugins = {
 
   {
     "nvim-focus/focus.nvim",
-    event = "WinEnter",
+    event = "VeryLazy",
     ---@diagnostic disable-next-line: assign-type-mismatch
     version = false,
     config = function()
