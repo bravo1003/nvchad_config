@@ -508,7 +508,7 @@ local plugins = {
 
   {
     "nvim-focus/focus.nvim",
-    event = "WinEnter",
+    event = "VeryLazy",
     ---@diagnostic disable-next-line: assign-type-mismatch
     version = false,
     config = function()
