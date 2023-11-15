@@ -30,6 +30,7 @@ M.disabled = {
     ["<leader>pt"] = "",
     ["<leader>th"] = "",
     ["<leader>ch"] = "",
+    ["<leader>lf"] = "",
 
     -- nvim tree default
     ["<C-n>"] = "",
@@ -180,6 +181,12 @@ M.general = {
     },
 
     -- LSP related map
+    ["<leader>f"] = {
+      function()
+        vim.diagnostic.open_float { border = "rounded" }
+      end,
+      "Floating diagnostic",
+    },
     ["<leader>lf"] = {
       -- function()
       --   vim.lsp.buf.format { async = true }
