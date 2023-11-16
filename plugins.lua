@@ -146,9 +146,6 @@ local plugins = {
     "willcassella/nvim-gn",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
     ft = "gn",
-    config = function()
-      require "nvim-gn"
-    end,
   },
 
   {
