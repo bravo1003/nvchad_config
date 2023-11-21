@@ -111,8 +111,7 @@ if g.neovide then
 
   g.neovide_cursor_animate_in_insert_mode = true
   g.neovide_cursor_vfx_mode = "torpedo"
-  g.neovide_scroll_animation_length = 0.1
+  g.neovide_scroll_animation_length = 0.2
   -- g.neovide_cursor_vfx_particle_density = 20
   -- g.neovide_cursor_vfx_particle_lifetime = 2
-  g.neovide_scroll_animation_length = 0.3
 end
