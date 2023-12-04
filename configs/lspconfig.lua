@@ -46,7 +46,6 @@ local cmd = {
   -- "--completion-style=detailed",
   "--header-insertion=never",
   "--clang-tidy",
-  "--suggest-missing-includes",
   "--offset-encoding=utf-16",
   "--pch-storage=disk",
 }
