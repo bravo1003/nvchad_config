@@ -211,7 +211,7 @@ M.general = {
     ["<leader>u"] = { "<cmd> UndotreeToggle <cr> <cmd> vertical resize 30 <cr>", "Undo Tree history" },
     ["<leader>rn"] = { [[:%s/\<lt><C-R><C-W>\>/<C-R><C-W>/gI<Left><Left><Left>]], "Rename String" },
     ["<C-s>"] = { "<cmd> Navbuddy <cr>", "Navbuddy symbol table toggle" },
-    ["<A-s>"] = { "<cmd> SymbolsOutline <cr>", "SymbolOutline table toggle" },
+    -- ["<A-s>"] = { "<cmd> SymbolsOutline <cr>", "SymbolOutline table toggle" },
 
     -- harpoon
     ["<C-e>"] = {

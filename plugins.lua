@@ -21,7 +21,7 @@ local plugins = {
 
   {
     "simrat39/symbols-outline.nvim",
-    -- enabled = false,
+    enabled = false,
     event = "LspAttach",
     config = function()
       local width = 43
@@ -513,6 +513,9 @@ local plugins = {
       require("focus").setup {
         ui = {
           hybridnumber = true,
+        },
+        autoresize = {
+          minwidth = 15,
         },
       }
     end,
