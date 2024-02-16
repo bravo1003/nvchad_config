@@ -44,6 +44,13 @@ local plugins = {
     end,
   },
 
+  {
+    "willcassella/nvim-gn",
+    enabled = false,
+    dependencies = { "nvim-treesitter/nvim-treesitter" },
+    ft = "gn",
+  },
+
   -- Enabled plugin
   {
     "neovim/nvim-lspconfig",
@@ -140,12 +147,6 @@ local plugins = {
       },
     },
     opts = overrides.treesitter,
-  },
-
-  {
-    "willcassella/nvim-gn",
-    dependencies = { "nvim-treesitter/nvim-treesitter" },
-    ft = "gn",
   },
 
   {
