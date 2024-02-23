@@ -105,8 +105,8 @@ if g.neovide then
     -- g.neovide_background_color = "#1e1e2e" .. alpha()
     g.neovide_input_macos_alt_is_meta = true
   elseif vim.loop.os_uname().sysname == "Linux" then
-    opt.guifont = "JetBrainsMono Nerd Font:h15"
-    opt.linespace = -2
+    opt.guifont = "FantasqueSansM Nerd Font:h17"
+    -- opt.linespace = -1
   end
 
   g.neovide_cursor_animate_in_insert_mode = true
