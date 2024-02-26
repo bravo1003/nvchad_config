@@ -98,14 +98,11 @@ if g.neovide then
   end
 
   if vim.loop.os_uname().sysname == "Darwin" then
-    opt.guifont = "JetBrainsMono Nerd Font:h21:w1"
-    -- g:neovide_transparency should be 0 if you want to unify transparency of content and title bar.
-    -- g.neovide_transparency = 0.0
-    -- g.transparency = 0.8
-    -- g.neovide_background_color = "#1e1e2e" .. alpha()
+    opt.guifont = "Fantasquesansm Nerd Font:h21:w1"
     g.neovide_input_macos_alt_is_meta = true
   elseif vim.loop.os_uname().sysname == "Linux" then
-    opt.guifont = "FantasqueSansM Nerd Font:h17"
+    opt.guifont = "Fantasquesansm Nerd Font:h17"
+    g.neovide_transparency = 0.8
     -- opt.linespace = -1
   end
 
