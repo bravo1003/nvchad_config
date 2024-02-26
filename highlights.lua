@@ -6,7 +6,7 @@ local M = {}
 
 ---@type Base46HLGroupsList
 M.override = {
-  CursorLine =                  { bg = "one_bg" },
+  CursorLine =                  { bg = "one_bg2" },
   Visual =                      { bg = "grey"  },
   IndentBlanklineContextChar =  { fg = "lavender" },
   LineNr =                      { fg = "light_grey" },

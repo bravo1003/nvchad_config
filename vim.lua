@@ -102,7 +102,7 @@ if g.neovide then
     g.neovide_input_macos_alt_is_meta = true
   elseif vim.loop.os_uname().sysname == "Linux" then
     opt.guifont = "Fantasquesansm Nerd Font:h17"
-    g.neovide_transparency = 0.8
+    g.neovide_transparency = 0.85
     -- opt.linespace = -1
   end
 
